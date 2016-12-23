@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>一個人的太平洋</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://www.weiwangblog.com/"/>
+  <updated>2016-12-23T08:18:39.826Z</updated>
+  <id>http://www.weiwangblog.com/</id>
+  
+  <author>
+    <name>Wei Wang</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>自免疫病学习报告</title>
+    <link href="http://www.weiwangblog.com/2016/12/22/autoimmunereview/"/>
+    <id>http://www.weiwangblog.com/2016/12/22/autoimmunereview/</id>
+    <published>2016-12-22T23:42:07.000Z</published>
+    <updated>2016-12-23T08:18:39.826Z</updated>
+    
+    <content type="html"><![CDATA[<p><em>“Reports that say that something hasn’t happened are always interesting to me, because as we know, there are known knowns; there are things we know we know. We also know there are known unknowns; that is to say we know there are some things we do not know. But there are also unknown unknowns – the ones we don’t know we don’t know. And if one looks throughout the history of our country and other free countries, it is the latter category that tend to be the difficult ones.” (“新闻报道说的某些未发生的事情总是让我很感兴趣,因为我们知道, 世间有知知-有些事情我们知道我们知道.我们也了解,有些是知不知-就是我们知道有些事情是我们不知道的.但是,世间也有不知不知-有些事情我们不知道我们不知道. 纵观我国和其他自由国家的历史, 这些不知不知往往是那些更难搞的.”)</em></p>
+<p>这是2002年2月12日,美国国防部长在国防部新闻发布会上答记者问是说的一段话,应对记者提出没有证据表明巴格达和恐怖组织相关的报道. 第一次读到这句话是在电脑奇才<a href="http://www.brendangregg.com/" target="_blank" rel="external">Brendan Gregg</a>的<a href="https://www.amazon.com/gp/product/0133390098/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0133390098&amp;linkCode=as2&amp;tag=deirdrestraug-20" target="_blank" rel="external">&lt;系统性能&gt;</a>一书里. 这句话成为如今成为我今年阅读和探究凡事原委的动力.</p>
+<p>今年6月,旦旦回中国度假回美之前,忽然视力极具下降, 眼前无数黑点,北京医院初步诊断怀疑是葡萄膜炎,但来不及做更多检查就返回美国. 回美后被达拉斯视网膜协会的眼科专家王医生被诊断得了葡萄膜炎, 之后得到达拉斯儿童医院的曹医生的确认. 两个医生的解释都是:旦旦免疫系统过度反应,错误的攻击他的眼球体内部组织,导致炎症,如果不控制可能失明, 而且免疫系统也许还会攻击其他的部位. 当即上了激素控制炎症,我开始了长达半年的大海捞针一般的海量阅读和调研. 虽然现在问题还没有结束,但已经得到控制,并相信我们在做最正确的治疗方向上.</p>
+<p>我完全蒙了. 免疫系统攻击人体自身?需要化疗?怎么会这样?</p>
+<p>接下来的几个月,做了大量的调研和阅读.从一无所知到一知半解到大概了解.半年下来,花了很多世间,读了很多无用的有用的困扰的,总算心里有些安定.现在大概做个总结,给自己一个阶段性的了断,也需要让自己从里面走出来开始集中精力继续前面的路.</p>
+<p>我知道我是没有资格写很多下面的内容的,但是通过这次旦旦生病,我觉得实在有必要写写自己的理解,为了我爱的亲人和朋友们需要的时候也许能少走一点弯路, 因为当你不知道你不知道的时候,你不知道有那些可能性.</p>
+<h2 id="关于医疗系统">关于医疗系统</h2><p>我一直以为美国的医疗系统是全世界最好的, 但下面出自Johns Hopkins大学的研究评估,美国医疗失误如今是造成死亡的第三原因.第一原因是心脏病, 第二原因是癌症.<br><img src="/images/autoimmune/topdeath.jpg" alt="美国死亡率统计"></p>
+<p>事实是,美国的医疗系统乃至全世界当前的绝大部分的医疗系统,在做的事情是症状控制(Symptom Management),而不是帮助病人恢复健康(Healing). 实际上在上世纪就有一些医生试图告诉大众医疗系统的真实状况,比如<a href="https://www.amazon.com/gp/product/0345342763/ref=oh_aui_detailpage_o09_s00?ie=UTF8&amp;psc=1" target="_blank" rel="external">“How to Raise a Healthy Child in Spite of Your Doctor: One of America’s Leading Pediatricians Puts Parents Back in Control of Their Children’s Health”</a>一书的作者Dr. Robert Mendelsohn, 他生前是伊利诺伊大学医学院的副教授,在做了30多年儿童科医生之后写了这本书.书中告诉父母亲们疾病的常识和医疗的现实. 这本书在当今还是有非常大的意义,也许更大. 他明确的支出,医疗系统做得最好的是意外伤害的处理,而除此之外,医院是制造疾病的地方.是不是耸人听闻?<br><img src="/images/autoimmune/howraisekid.jpg" alt="How to Raise a Healthy Child in Spite of Your Doctor: One of America&#39;s Leading Pediatricians Puts Parents Back in Control of Their Children&#39;s Health&quot;"><br>我想Johns Hopkins的研究给我们一个严重警告,不要依赖医疗系统给你健康. 这个研究被cnn和华盛顿邮报引用,成了一时的头条,引起广泛的争议,非常多的批评声音说这个研究有问题. 我个人认为, 如果你想要降低血压使头痛不痛,或者骨折接骨, 当前医疗系统是可以做到的, 但是当今的医疗系统绝对不能给你健康. </p>
+<h2 id="关于葡萄膜炎(Uveitis)">关于葡萄膜炎(Uveitis)</h2><p>Uveitis一字源于拉丁文uvea(葡萄). 眼球有三层组织包着一个充满胶状物(玻璃体)球腔, 最外层是眼白,最内层是视网膜,中间那层是葡萄膜. 葡萄膜发炎就叫葡萄膜炎.<br>而实际上当今葡萄膜炎已经泛指所有眼部的炎症,包括视网膜眼球内部血管和光学神经. 所有其实中英文的葡萄膜炎实际上很误导,英文里为了表示不同部位细分了前眼,眼中,眼后和全眼,各有学术名称. 旦旦被诊断为Pars planitis(中眼葡萄膜炎).</p>
+<p><img src="/images/autoimmune/eye2.png" alt="葡萄膜炎"></p>
+<p>葡萄膜炎的病因非常多,近100种. 最常见的有</p>
+<ul>
+<li>自免疫系统问题(Autoimmune disorders)</li>
+<li>感染</li>
+<li>接触毒害物质</li>
+<li>手术后遗症, 等等等等</li>
+</ul>
+<p>从治疗手段上,病分为免疫性炎症和其他炎症. 如果是免疫系统造成的炎症, 便归入自免疫系统疾病类.<br>眼科医学的对这个疾病的说法是,在绝大部分情况下病因未知,病情往往时好时坏有周期性. 有时候并不建议治疗,因为治疗(的副作用)可能比病本身更糟糕. 而常规治疗方案是激素和系统免疫压抑药物.</p>
+<p>曹医生给的病人手册上则写道: “有时候眼睛仅仅是受影响的一部分,身体的其他部位可能在不定期(数月,数年,甚至数十年)的将来受影响.”暗示着终身治疗并可能发展到其他部位, 完全的未知.</p>
+<p><img src="/images/autoimmune/what_md_say.png" alt="What conventional Medicine Say"></p>
+<h2 id="自免疫系统疾病">自免疫系统疾病</h2><p>这个名字实际上非常误导,我认为应该叫自毁性免疫系统疾病. 简单来说: 免疫系统是一个由特殊细胞和器官组成的复杂网络,用来抵御外来的病原体和细菌,还有其他不属于人体的各种蛋白质. 免疫系统的核心是区分自己和非自己. 当前的医学教科书认为, 自免疫系统疾病来源于免疫系统的不正常工作, 导致免疫系统不能正确区分自己和非自己,结果制造出自免疫抗体(Autoantibodies)来攻击人体自身组织. 现在我知道,医学教科书并不一定正确的.这是我为什么要写这篇文的一个原因.</p>
+<p>可怕的是自免疫系统可能攻击人体任何组织.常见的除了葡萄膜炎还有红斑狼疮,白癜风,类风湿性关节炎等等等等有100多种病. </p>
+<p><img src="/images/autoimmune/bodyparts.png" alt="自免疫系统可能发病的部位"></p>
+<h2 id="关于免疫系统">关于免疫系统</h2><p>再次说明,我仅仅懂得皮毛. <a href="https://www.amazon.com/gp/product/B006WC6YV4/ref=oh_aui_search_detailpage?ie=UTF8&amp;psc=1" target="_blank" rel="external">“How the Immune System Works”</a> 一书是医学院学习免疫系统推荐的伴随书,帮助学生学习免疫系统的.书中承认当今医学还不了解免疫系统的全部,免疫学理论在不停的修改.甚至包括一些基本理论.</p>
+<p>一些确定的认为是事实的是:</p>
+<ul>
+<li>免疫系统无时无刻在试图保护人体;</li>
+<li>免疫系统开始于人体边界(Physical Barriers):包括皮肤,消化道/呼吸道/生殖系统</li>
+<li>一个1米5左右的人,皮肤面积大概是1.5平方米, 呼吸道表皮面积大约是100平方米;而消化道表皮面积是300平方米左右,相当于一个网球场</li>
+<li>先天免疫系统(Innate immune system)</li>
+<li>适应性免疫系统(Adaptive Immune system)</li>
+</ul>
+<p><img src="/images/autoimmune/skin.png" alt="消化系统表皮面积"><br><img src="/images/autoimmune/tennis.png" alt="网球场那么大的消化道表皮"></p>
+<p>任何通过人体边界进入人体的内部的(人体内部指的是皮肤和呼吸道,消化道,生殖道表皮中间的人体组织)入侵者,先天免疫系统要是不认识他就会对其进行攻击.一个有名的免疫细胞叫巨噬细胞(Macrophage),它有神器的天线(Receptors)能够通过入侵者细胞皮的脂肪结构蛋白结构碳水化合物结构感知它的存在.<br><img src="/images/autoimmune/macrophage.png" alt="巨噬细胞攻击病原体"><br>先天免疫系统的反应是第一时间的,比如当手割破受了细菌感染, 血液涌向伤口,带来免疫细胞和杀手化学物质来消灭病菌;体液也流向伤口带来更多的消毒化学物质并带走死去的细胞(流脓);伤口往往会发热,甚至照成全身性的发烧,因为高温会杀死细菌和病毒.而疼痛,则是神经系统给身体免疫系统的一个警告.</p>
+<p>先天性免疫系统是没有记忆的,而适应性免疫系统则有记忆. 适应性免疫系统会给病毒一个入侵的机会,当身体产生病变时,适应性免疫系统会开始学习这个入侵的病毒构成,并开始组成制造相应抗体的生产线(B cell)来制造来抵抗该入侵病毒的抗体.这样的抗体一旦制造出来会在体内停留数月之久,而这个抗体生产线则会存在更长的时间甚至终身存在.当同样的病毒再次入侵,生产线会立即开始制造抗体来抵御病毒. 这是便是疫苗的工作原理(我觉得疫苗工作原理是完全成立的,但是问题是当今疫苗的制造,不能使得适量的病毒单独存在,从而造成了极大的问题, 弊端远远大于利处). </p>
+<p>几类基本抗体和不同的炎症:</p>
+<ul>
+<li>IgA: 这是最常见的抗体,存在于消化道呼吸道表皮下,也存在也泪液唾液乳汁生殖系统分泌物里.他们是来杀死入侵的病毒和细菌的. 一个常见的问题是当消化系统有不良发酵物过度繁殖时, IgA会受到压抑.</li>
+<li>IgE: 如果你有食物过敏或花粉等等过敏,便是IgE的功劳了.这是先天免疫系统制造的抗体,会对入侵者立即攻击造成炎症反应(Acute Inflammation).情况危机的甚至会照成比如肺部严重炎症导致呼吸困难而死亡. 这是免疫系统的在试图保护人体的副作用. </li>
+<li>IgG:  这是适应性免疫系统制造的抗体. 他的反应比较慢, 最慢到72小时才反应. 如果你对某些食物会产生IgG,医学的定义是你对这些食物敏感(Food sensitity). 这类抗体给人带来慢性暗炎症(Chronic inflammation, or Silent Inflammation). </li>
+</ul>
+<p>一个普遍的说法是,自免疫系统疾病是慢性炎症持续时间太长,超过了免疫系统能够承受的限度,导致免疫系统紊乱开始走火攻击自身.</p>
+<p>下面来讲讲免疫系统过载的来源.</p>
+<h2 id="免疫过载">免疫过载</h2><p>免疫系统过载的来源主要来自几个方面,一个是当今非常普遍的肠漏(Leaky gut, or Intestinal  Permeability), 不健康的饮食结构,还有疫苗.</p>
+<h3 id="肠漏">肠漏</h3><p>前面提到消化道表皮有网球场那么大,70%以上的免疫系统细胞存在于消化道尤其是小肠大肠. 食物经过口腔食道胃的初步分解之后进入小肠, 小肠里面进一步分解成最小的成分:蛋白质应降解为钛类物质和氨基酸,脂肪降解为脂肪酸和甘油,碳水化合物应降解为单糖.<br>正常情况下,只有这些降解成最小的营养物质才可以通过小肠壁进入体内. 没有消化完的食物应该最终进入大肠排除体外.</p>
+<p>健康的小肠壁是一个一个细胞紧紧的, 而当炎症发生造成肠漏之后,这些细胞受到破损,便会形成肉眼看不到漏洞. 这会造成没有消化完全的大分子蛋白和病原体或毒害物质直接进入血液,照成免疫系统反应.</p>
+<p><img src="/images/autoimmune/HealthyLeakyGut.jpg" alt="肠漏"></p>
+<p>最新的自免疫系统研究表面, <em>每一个自免疫系统疾病患者都有肠漏问题</em>.</p>
+<h3 id="饮食结构">饮食结构</h3><ul>
+<li><a href="https://www.amazon.com/gp/product/0060595469/ref=oh_aui_detailpage_o02_s00?ie=UTF8&amp;psc=1" target="_blank" rel="external">“The Anti-Inflammation Zone: Reversing the Silent Epidemic That’s Destroying Our Health”</a> 一书系统的讲解了食物和炎症的关系. “直到80年前,美国人的饮食的Omega-6:Omega-3比例是2:1…而如今我们消耗太多太多的Omega6,当今美国平均饮食的这个比例是20:1.” 健康的比例在1:1 到3:1; 炎症始于8:1左右. 常见的油类里,玉米油里面的这个比例是60:1, 其他的植物油包括黄豆油,葵花籽油,花生油,芥子油这个比较全部都不健康. </li>
+</ul>
+<p><img src="/images/autoimmune/oils.png" alt="油的O6/O3比例"><br>推荐的油是:初榨椰油(不含O3和O6, 但是这种中分子油及其及其健康),初榨处橄榄油, 牛油果油和健康动物脂肪熬出的油.购买时候一定要看清楚必须是压榨否则就是是用化学方法提炼的油非常不健康. 更多的食物里面的脂肪类型含量在<a href="https://en.wikipedia.org/wiki/Ratio_of_fatty_acids_in_different_foods" target="_blank" rel="external">这里</a>.</p>
+<ul>
+<li>含麦麸的麦类食品.这是自免疫系统疾病首要避免的食物.这个着实困扰了我半年,不可理解为什么人类吃了这么多年的食物,忽然会照成这么多问题. 这个答案现在得到了麻省理工的科学家Dr. Seneff和她的合作科学家的完美解释:尽管麦子不是转基因产品,但是美国的麦子在收割前大量使用草甘膦目的是杀死催熟催干并同时杀死地里的杂草,使得收割容易并不会卡住农机.草甘膦的分子结构,包含了人体需要的一个最小的氨基酸Glycine.她和她的研究伙伴认为,人体错误的讲Glyphosate拿来合成人体需要的蛋白质,直接导致当今各种疾病率随着草甘膦的使用量极度增长. </li>
+</ul>
+<p>草甘膦的工作机制是阻断植物和微生物的<a href="https://zh.wikipedia.org/wiki/%E8%8E%BD%E8%8D%89%E9%85%B8%E9%80%94%E5%BE%84" target="_blank" rel="external">莽草酸途径</a>,使得他们的生物合成机制失败.蒙山公司说此物对人和动物无毒,因为动物细胞不存在这个途径, 但其实人体和动物细胞里没有这个途径但是人体和动物消化道内的微生物有这个途径而且及其重要!草甘膦会使得体内健康的微生物被杀死照成各种营养缺失(比如B族维生素)并带来消化道炎症导致肠漏.</p>
+<p><img src="/images/autoimmune/gng.png" alt="Glycine vers Glyphosate"></p>
+<p><img src="/images/autoimmune/mistake.png" alt="Glyphosate冒充Glycine"></p>
+<ul>
+<li><p>糖. 精练糖,没有任何营养只有热量的糖. 是当今的毒药,应该尽量避免. 天然食物里的糖分则不需要过度担心. 太多相关的文章,不必多说.</p>
+</li>
+<li><p>牛奶. </p>
+</li>
+</ul>
+<p>书单:</p>
+<ul>
+<li><a href="https://www.amazon.com/gp/product/162336700X/ref=oh_aui_detailpage_o01_s01?ie=UTF8&amp;psc=1" target="_blank" rel="external">“The Autoimmune Fix: How to Stop the Hidden Autoimmune Damage That Keeps You Sick, Fat, and Tired Before It Turns Into Disease”</a></li>
+<li><a href="https://www.amazon.com/gp/product/B006WC6YV4/ref=oh_aui_search_detailpage?ie=UTF8&amp;psc=1" target="_blank" rel="external">“How the Immune System Works”</a></li>
+<li><a href="https://www.amazon.com/gp/product/0062347470/ref=oh_aui_detailpage_o02_s01?ie=UTF8&amp;psc=1" target="_blank" rel="external">“The Autoimmune Solution: Prevent and Reverse the Full Spectrum of Inflammatory Symptoms and Diseases”</a></li>
+<li><a href="https://www.amazon.com/gp/product/1936608391/ref=oh_aui_detailpage_o08_s00?ie=UTF8&amp;psc=1" target="_blank" rel="external">The Paleo Approach: Reverse Autoimmune Disease and Heal Your Body</a></li>
+<li><a href="https://www.amazon.com/gp/product/0060595469/ref=oh_aui_detailpage_o02_s00?ie=UTF8&amp;psc=1" target="_blank" rel="external">“The Anti-Inflammation Zone: Reversing the Silent Epidemic That’s Destroying Our Health”</a></li>
+<li><a href="https://www.amazon.com/gp/product/0345342763/ref=oh_aui_detailpage_o09_s00?ie=UTF8&amp;psc=1" target="_blank" rel="external">“How to Raise a Healthy Child in Spite of Your Doctor: One of America’s Leading Pediatricians Puts Parents Back in Control of Their Children’s Health”</a></li>
+<li><a href="https://www.amazon.com/gp/product/156924653X/ref=oh_aui_detailpage_o04_s00?ie=UTF8&amp;psc=1" target="_blank" rel="external">“Take Charge of Your Child’s Health: A Parent’s Guide to Recognizing Symptoms and Treating Minor Illnesses at Home”</a></li>
+<li><a href="https://www.amazon.com/gp/product/B00BPHL77C/ref=oh_aui_detailpage_o07_s00?ie=UTF8&amp;psc=1" target="_blank" rel="external">“Breaking the Vicious Cycle: Intestinal Health Through Diet by Gottschall, Elaine Gloria (Revised Edition) [Paperback(1994)]“</a></li>
+<li><a href="https://www.amazon.com/gp/product/0062433644/ref=oh_aui_detailpage_o01_s00?ie=UTF8&amp;psc=1" target="_blank" rel="external">“Eat Dirt: Why Leaky Gut May Be the Root Cause of Your Health Problems and 5 Surprising Steps to Cure It”</a></li>
+<li><a href="https://www.amazon.com/gp/product/1942411251/ref=oh_aui_detailpage_o02_s01?ie=UTF8&amp;psc=1" target="_blank" rel="external">“The Anti-Inflammatory Diet &amp; Action Plans: 4-Week Meal Plans to Heal the Immune System and Restore Overall Health”</a></li>
+<li><a href="https://www.amazon.com/Healthy-Heal-Body-Recipes-LIFE/dp/1494227215/ref=sr_1_1?ie=UTF8&amp;qid=1482455163&amp;sr=8-1&amp;keywords=How+to+Be+Healthy+and+Heal+the+Body+With+Recipes+For+LIFE" target="_blank" rel="external">“How to Be Healthy and Heal the Body With Recipes For LIFE”</a></li>
+<li><a href="https://www.amazon.com/gp/product/076277360X/ref=oh_aui_detailpage_o09_s00?ie=UTF8&amp;psc=1" target="_blank" rel="external">“It’s No Accident: Breakthrough Solutions To Your Child’s Wetting, Constipation, Utis, And Other Potty Problems”</a></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;em&gt;“Reports that say that something hasn’t happened are always interesting to me, because as we know, there are known knowns; there are 
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>MedicalResearchReview</title>
+    <link href="http://www.weiwangblog.com/2016/12/22/MedicalResearchReview/"/>
+    <id>http://www.weiwangblog.com/2016/12/22/MedicalResearchReview/</id>
+    <published>2016-12-22T23:42:07.000Z</published>
+    <updated>2016-12-22T23:42:07.112Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>goodkilling?</title>
+    <link href="http://www.weiwangblog.com/2016/02/15/goodkilling/"/>
+    <id>http://www.weiwangblog.com/2016/02/15/goodkilling/</id>
+    <published>2016-02-16T02:43:40.000Z</published>
+    <updated>2016-02-16T02:43:53.037Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>醉汉法则与无意识的未知</title>
+    <link href="http://www.weiwangblog.com/2016/02/10/unknowns/"/>
+    <id>http://www.weiwangblog.com/2016/02/10/unknowns/</id>
+    <published>2016-02-10T14:38:15.000Z</published>
+    <updated>2016-02-10T15:01:43.935Z</updated>
+    
+    <content type="html"><![CDATA[<p>Brendan Gregg先生的&lt;&lt;系统性能&gt;&gt;一书是今年来我最喜欢的一本技术书, 里面讲很多方法论.</p>
+<p>书的开头引用了美前国防部的关于已知和未知的话:<br>There are known knowns; there are things we know we know. We als know there are known unknowns; that is to say we know there are somethings we do not know. But there are unknown unknowns - there ar things we do not know we don’t know.</p>
+<p>书中列举很多工作中常见的所谓方法, 其中一则是醉汉法: 一警察看见一醉汉在路灯下找寻,问他在干吗,他说在找钥匙.警察帮忙找了半天也找不到, 便问, 你确定是路灯下掉的钥匙吗?醉汉答,不确定,但是就这看得见阿..</p>
+<p>他的讲演中多次提到知其然而不知其所以然的重要, 求其是在处理复杂性能问题时,当你完全不知道一个领域的存在和可能性的时候,你便是这个醉汉.</p>
+<p>这个道理太重要.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Brendan Gregg先生的&amp;lt;&amp;lt;系统性能&amp;gt;&amp;gt;一书是今年来我最喜欢的一本技术书, 里面讲很多方法论.&lt;/p&gt;
+&lt;p&gt;书的开头引用了美前国防部的关于已知和未知的话:&lt;br&gt;There are known knowns; there are thing
+    
+    </summary>
+    
+    
+      <category term="tech" scheme="http://www.weiwangblog.com/tags/tech/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>奇妙的生日会</title>
+    <link href="http://www.weiwangblog.com/2016/02/03/Birthday_party_in_dream/"/>
+    <id>http://www.weiwangblog.com/2016/02/03/Birthday_party_in_dream/</id>
+    <published>2016-02-03T14:15:08.000Z</published>
+    <updated>2016-02-06T15:58:49.427Z</updated>
+    
+    <content type="html"><![CDATA[<p>也没人说是怎么回事,大伙儿就聚在一起了.很多不熟悉的面孔,隐约倒是看到男神在人群里闪过,走过去又找不到了.<br>吃了啥喝了啥一概记不住,只记得话题全是不着边际,说完就忘了.临到散了,一位善面孔的老太太在人群里立起一块黑板,上面写着:</p>
+<p>祝Jamie的55岁生日快乐.</p>
+<p>这是才看到主角.原来是亚洲面孔,很精神,笑的好开心的样子. 边上的女子, 好高的个子,很美好的笑容.两人不时对望,眼里的温柔满溢的样子真是叫人温暖. </p>
+<p>但是, 我认识他们吗? 为啥叫我来啊. 我是喝多了吗?</p>
+<p>睁开眼, 窗外还是黑的.慢慢的回想了一下那两张脸,其实是好熟悉的阿. </p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;也没人说是怎么回事,大伙儿就聚在一起了.很多不熟悉的面孔,隐约倒是看到男神在人群里闪过,走过去又找不到了.&lt;br&gt;吃了啥喝了啥一概记不住,只记得话题全是不着边际,说完就忘了.临到散了,一位善面孔的老太太在人群里立起一块黑板,上面写着:&lt;/p&gt;
+&lt;p&gt;祝Jamie的55岁生日
+    
+    </summary>
+    
+    
+      <category term="胡言" scheme="http://www.weiwangblog.com/tags/%E8%83%A1%E8%A8%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>荒城之月</title>
+    <link href="http://www.weiwangblog.com/2016/01/17/moon-on-the-abondon-city/"/>
+    <id>http://www.weiwangblog.com/2016/01/17/moon-on-the-abondon-city/</id>
+    <published>2016-01-17T10:41:08.000Z</published>
+    <updated>2016-01-17T10:55:45.193Z</updated>
+    
+    <content type="html"><![CDATA[<iframe width="100%" height="160" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fwei-wang-44%2Fopkixlr6ov5c&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&color=ff5500&show_artwork=true"></iframe>
+<p>记忆真是个奇妙的东西<br>时常脑海里响起的旋律<br>却那么多年也想不起叫什么</p>
+<p>有的东西其实一直在那里<br>在一个心底的角落里<br>像一颗古老的种子</p>
+<p>原来是荒城之月<br>一下子回到童年<br>回到那个久病的朋友的房间<br>那个对世界充满好奇的少年<br>拿着那盒叫做音乐医生的磁带盒子<br>觉得这首歌的名字好美</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;iframe width=&quot;100%&quot; height=&quot;160&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fw
+    
+    </summary>
+    
+    
+      <category term="有时不易" scheme="http://www.weiwangblog.com/tags/%E6%9C%89%E6%97%B6%E4%B8%8D%E6%98%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>一首黑暗而光明的歌</title>
+    <link href="http://www.weiwangblog.com/2015/12/07/Reason-not-die/"/>
+    <id>http://www.weiwangblog.com/2015/12/07/Reason-not-die/</id>
+    <published>2015-12-07T21:41:31.000Z</published>
+    <updated>2016-01-17T10:40:01.644Z</updated>
+    
+    <content type="html"><![CDATA[<p>一首黑暗而光明的歌</p>
+<iframe width="100%" height="160" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fnatz-raydtha%2Fnatz-the-reason-why-i-thought&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&color=ff5500&show_artwork=true"></iframe>
+<p> 我曾经想死 因为海猫在码头悲鸣 随着浪花起浮消没 叼啄着往昔飞离不见 我曾经想死 因为生日那天杏花盛开 若在这日照下酣睡 能像冲腐化为泥土吗 薄荷糖 渔港的灯塔 生锈的拱桥 丢弃的自行车 木造车站的暖壶前 无处可前往的心灵 今天与昨天如此的相似 像改变明天必须改变今天 我知道 我知道 但是… 我曾经想死 因为心中无一牵挂 心空虚而哭泣 一定是渴望得到充实 我曾经想死 因为鞋带已然松脱 紧不紧的鞋带 如同紧不紧人的羁绊 我曾经想死 因为少年深情凝视着我 抱膝跪在床上 对那天的我自己感到抱歉 屏幕的微光 楼上的嘈杂 来电的铃声 紧塞住双耳 鸟笼中的少年 对无法看见的宿敌呐喊 叠一间的堂吉诃德 目的也是肮脏丑陋 我曾经想死 因为被人说是冷血 被爱着而哭泣 因为知道了人的温暖 我曾经想死 因为有你灿烂的笑容 之所以思考死亡 一定是坦率努力活着吧 我曾经想死 因为还没有与你相遇 因为有像你这样的人诞生 我对这世界稍微有了好感 因为有像你这样的人活着 我对这世界稍微有了期待</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;一首黑暗而光明的歌&lt;/p&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;160&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A%2F%2Fs
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>海晖唱给妈妈的歌</title>
+    <link href="http://www.weiwangblog.com/2015/11/08/haihuidege/"/>
+    <id>http://www.weiwangblog.com/2015/11/08/haihuidege/</id>
+    <published>2015-11-08T23:02:53.000Z</published>
+    <updated>2015-11-08T22:26:32.538Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近夜里老是会醒来. 昨夜2点多, 海晖发来消息, 说他妈妈状况不好.<br>他唱了首歌送给妈妈, 是唯一的一首.</p>
+<p>听了几遍便睡了过去, 再次醒过来的时候, 天依旧没有亮, 却发现自己在哭泣.</p>
+<p>早上去了跑步, 听同样的歌, 忍不住想要蹲下, 于是一路跑到湖边无人处, 独坐半响.</p>
+<p><img src="https://lh3.googleusercontent.com/Uc_5G3j37uyjLlC9giQy-V4YSmenxORoLTkEmTLzIHdsNSMzWkaadT2pkE6JL-WRbx0UcRmhcwbr-j2CMJoxJbVwcbMErK0WQGejANZhI9m0Wvw7I5SbQK921mqtB8hO6PPsATN5MLR1aESZEeGshtjwBIJSGI_1-J2IPmBr-UAPXfgnrDG_OBkgE9zgNUvq7ZTW9rXW1YGlkapxLhQM5Ckd5kbZLntihBPfj3dQXZJSpPKOFuF8AfNrRom347OBnezJLQTezZyjd5Dm-maui0X09xzZ5bLi40pm_vWphJ4cAehz8olyy7IFcbzwDb-cQtEk_YOMtyBHPY6y7cERBu8KFETpNFXgN4GwO9xt8hk-7YyDLLwG25AvnXiz4SkNAWx3bqwWCp52yO9iHKtU6Q0-QPb8DYOvBcof3sxtbRGAxww7Yd1WfALQq1f0Epsyobgh7H0mmnp3gT9uhioIhw0IOEIrvt9uIeYT_KK2hxNB5Sz8IGzVj_QPQOPFUmaBEcFIqyWjQXGs-iRCDNfZQY4tJuzs0QnHbpClelZ99RL2=w717-h956-no" alt="Lake Side"></p>
+<iframe width="100%" height="160" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fwei-wang-44%2Fhoi4htjyj5vo&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&color=ff5500&show_artwork=true"></iframe>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近夜里老是会醒来. 昨夜2点多, 海晖发来消息, 说他妈妈状况不好.&lt;br&gt;他唱了首歌送给妈妈, 是唯一的一首.&lt;/p&gt;
+&lt;p&gt;听了几遍便睡了过去, 再次醒过来的时候, 天依旧没有亮, 却发现自己在哭泣.&lt;/p&gt;
+&lt;p&gt;早上去了跑步, 听同样的歌, 忍不住想要蹲下, 于是
+    
+    </summary>
+    
+    
+      <category term="Music" scheme="http://www.weiwangblog.com/tags/Music/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>即时通信工具</title>
+    <link href="http://www.weiwangblog.com/2015/10/29/about-im/"/>
+    <id>http://www.weiwangblog.com/2015/10/29/about-im/</id>
+    <published>2015-10-29T11:00:16.000Z</published>
+    <updated>2015-10-29T10:05:42.680Z</updated>
+    
+    <content type="html"><![CDATA[<p>现在是凌晨２点３６分．书房里台式电脑发出嗡嗡的声音，倒显得一世界好安静，安静得可以心里的声音．</p>
+<p>对于即时通信工具，我是又爱又憎的．爱它的方便自然不必说．但憎它将已经够按耐不住的现代人变得更加急躁，不加思考的说话．</p>
+<p>昨天晚上早睡，因为这几天睡眠不足，导致注意力不集中．</p>
+<p>巴蒂昨晚趴在楼梯下面睡，下楼的时候它便醒来，诧异的四周看看，又懒下去.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;现在是凌晨２点３６分．书房里台式电脑发出嗡嗡的声音，倒显得一世界好安静，安静得可以心里的声音．&lt;/p&gt;
+&lt;p&gt;对于即时通信工具，我是又爱又憎的．爱它的方便自然不必说．但憎它将已经够按耐不住的现代人变得更加急躁，不加思考的说话．&lt;/p&gt;
+&lt;p&gt;昨天晚上早睡，因为这几天睡眠不足
+    
+    </summary>
+    
+    
+      <category term="random" scheme="http://www.weiwangblog.com/tags/random/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于头发</title>
+    <link href="http://www.weiwangblog.com/2015/10/07/About-hair/"/>
+    <id>http://www.weiwangblog.com/2015/10/07/About-hair/</id>
+    <published>2015-10-08T00:23:13.000Z</published>
+    <updated>2015-10-25T02:35:50.984Z</updated>
+    
+    <content type="html"><![CDATA[<p>因我的的光头,和捷尔米聊起了头发. 捷尔米是公司里受所有人尊敬的全科神, 无所不通.<br>捷尔米是留长发的, 每五到六年,剪一次. 我问他之前的头发剪下来是不是都留着.他答说捐了.<br>原来29年前他的外甥得的癌症作化疗要头发掉光, 他把他的头发剪下来做成假发套送给他.<br>那以后, 他每5到6年就剪一次,送给一个专门给癌症孩子作发套的公益组织.<br>“这两天头发全灰了,我就把头发捐给一个成人癌症组织, 然后他们给钱去换成孩子法发套,再<br>送给那个孩子癌症组织.”</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;因我的的光头,和捷尔米聊起了头发. 捷尔米是公司里受所有人尊敬的全科神, 无所不通.&lt;br&gt;捷尔米是留长发的, 每五到六年,剪一次. 我问他之前的头发剪下来是不是都留着.他答说捐了.&lt;br&gt;原来29年前他的外甥得的癌症作化疗要头发掉光, 他把他的头发剪下来做成假发套送给他.
+    
+    </summary>
+    
+    
+      <category term="life" scheme="http://www.weiwangblog.com/tags/life/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>how to use ftrace to capture code path</title>
+    <link href="http://www.weiwangblog.com/2015/02/01/2015-02-01_22:39:39/"/>
+    <id>http://www.weiwangblog.com/2015/02/01/2015-02-01_22:39:39/</id>
+    <published>2015-02-02T04:39:39.000Z</published>
+    <updated>2015-10-25T02:35:00.307Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Background">Background</h2><p>I have to deep dive into an networking issue today in my work environment. We have a good number of servers that are doing low latency transactions. It has been reported there are intermittent delay in transactions, which has cost us money.</p>
+<p>Developper was able to reproduce the issue with some simple code doing client/server communication with TCP. I worked with networking team to capture network traffic with tcpdump on servers and at switch ports.</p>
+<p>We found when the issue happens, there are SYN packet been sent at logical bonding, active physical ethernet port, but They don’t get acknowledged. The client server will retransmit the SYN for 4 times with increased delay in between, then give up. Interestingly, those SYN packets are not seen on the switch ports that are directly connected to the server!</p>
+<h2 id="Things_to_look_for:">Things to look for:</h2><p>We know we don’t have any firewalls in-between those servers. But, we still manually test the port where we observed the failures, and as expected, the failure was not repeatable on the same port.</p>
+<p>Things has been checked:</p>
+<ul>
+<li>Firewall rules between servers;</li>
+<li>IP table rules;</li>
+<li>Open file limits; (didn’t think this can be the cause for our issue but still checked, as socket already assigned)</li>
+<li>Kernel setting for local port range (net.ipv4.ip_local_port_range) (didn’t think this can be the cause but still checked, as we’ve already get the port and TCP stack started using the port to send SYN message)</li>
+</ul>
+<p>Eventually I decided to capture the code path of the issue. While below was done only in my lab, but it may helps in many situations that we may need to understand what’s going on under the hook..</p>
+<h2 id="How_do_I_capture_the_code_path">How do I capture the code path</h2><p>I made two small script to help me achieve this goal.</p>
+<h3 id="Main_script_to_capture_the_code_path">Main script to capture the code path</h3><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"># cat ftrace.sh&#10;./sleepnc.sh &#38;&#10;pid_totrace=$!&#10;ps -ef | grep $&#123;pid_totrace&#125;&#10;&#10;echo $&#123;pid_totrace&#125; &#62; /sys/kernel/debug/tracing/set_ftrace_pid&#10;echo function_graph &#62; /sys/kernel/debug/tracing/current_tracer&#10;echo 1 &#62; /sys/kernel/debug/tracing/tracing_on&#10;echo ============================================= &#62; /dev/shm/xmlping.ftrace.out&#10;cat /sys/kernel/debug/tracing/trace_pipe &#62;&#62; /dev/shm/xmlping.ftrace.out &#38;&#10;cat_pid=$!&#10;sleep 4&#10;#do test here&#10;echo 0 &#62; /sys/kernel/debug/tracing/tracing_on&#10;kill -9 $cat_pid</span><br></pre></td></tr></table></figure>
+<h3 id="Script_to_do_a_quick_client/server_tcp_communication-">Script to do a quick client/server tcp communication.</h3><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"># cat sleepnc.sh&#10;sleep 3&#10;echo test|nc  10.xx.xx.xx 9000</span><br></pre></td></tr></table></figure>
+<p>And, at the server side, use nc -lk 9000 start a tcp listener.</p>
+<p>I also use strace to capture at system call layer activities, which helps understanding the kernel code path greatly.</p>
+<h2 id="The_result">The result</h2><h3 id="System_call_flow">System call flow</h3><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">[pid <span class="number">24036</span>] <span class="number">15</span>:<span class="number">26</span>:<span class="number">09.377780</span> munmap(<span class="number">0x7fd3682f9000</span>, <span class="number">51160</span>) = <span class="number">0</span></span><br><span class="line">[pid <span class="number">24036</span>] <span class="number">15</span>:<span class="number">26</span>:<span class="number">09.377997</span> brk(<span class="number">0</span>)      = <span class="number">0x1129000</span></span><br><span class="line">[pid <span class="number">24036</span>] <span class="number">15</span>:<span class="number">26</span>:<span class="number">09.378086</span> brk(<span class="number">0x114a000</span>) = <span class="number">0x114a000</span></span><br><span class="line">[pid <span class="number">24036</span>] <span class="number">15</span>:<span class="number">26</span>:<span class="number">09.378192</span> socket(PF_NETLINK, SOCK_RAW, <span class="number">0</span>) = <span class="number">3</span></span><br><span class="line">[pid <span class="number">24036</span>] <span class="number">15</span>:<span class="number">26</span>:<span class="number">09.378296</span> bind(<span class="number">3</span>, &#123;sa_family=AF_NETLINK, pid=<span class="number">0</span>, groups=<span class="number">00000000</span>&#125;, <span class="number">12</span>) = <span class="number">0</span></span><br><span class="line">[pid <span class="number">24036</span>] <span class="number">15</span>:<span class="number">26</span>:<span class="number">09.378399</span> getsockname(<span class="number">3</span>, &#123;sa_family=AF_NETLINK, pid=<span class="number">24036</span>, groups=<span class="number">00000000</span>&#125;, [<span class="number">12</span>]) = <span class="number">0</span></span><br><span class="line">[pid <span class="number">24036</span>] <span class="number">15</span>:<span class="number">26</span>:<span class="number">09.378528</span> sendto(<span class="number">3</span>, <span class="string">"\24\0\0\0\26\0\1\3a\335\317T\0\0\0\0\0\0\0\0"</span>, <span class="number">20</span>, <span class="number">0</span>, &#123;sa_family=AF_NETLINK, pid=<span class="number">0</span>, groups=<span class="number">00000000</span>&#125;, <span class="number">12</span>) = <span class="number">20</span></span><br><span class="line">[pid <span class="number">24036</span>] <span class="number">15</span>:<span class="number">26</span>:<span class="number">09.378661</span> recvmsg(<span class="number">3</span>, &#123;msg_name(<span class="number">12</span>)=&#123;sa_family=AF_NETLINK, pid=<span class="number">0</span>, groups=<span class="number">00000000</span>&#125;, msg_iov(<span class="number">1</span>)=[&#123;<span class="string">"0\0\0\0\24\0\2\0a\335\317T\344]\0\0\2\10\200\376\1\0\0\0\10\0\1\0\177\0\0\1"</span>..., <span class="number">4096</span>&#125;], msg_controllen=<span class="number">0</span>, msg_flags=<span class="number">0</span>&#125;, <span class="number">0</span>) = <span class="number">108</span></span><br><span class="line">[pid <span class="number">24036</span>] <span class="number">15</span>:<span class="number">26</span>:<span class="number">09.378837</span> recvmsg(<span class="number">3</span>, &#123;msg_name(<span class="number">12</span>)=&#123;sa_family=AF_NETLINK, pid=<span class="number">0</span>, groups=<span class="number">00000000</span>&#125;, msg_iov(<span class="number">1</span>)=[&#123;<span class="string">"\24\0\0\0\3\0\2\0a\335\317T\344]\0\0\0\0\0\0\1\0\0\0\10\0\1\0\177\0\0\1"</span>..., <span class="number">4096</span>&#125;], msg_controllen=<span class="number">0</span>, msg_flags=<span class="number">0</span>&#125;, <span class="number">0</span>) = <span class="number">20</span></span><br><span class="line">[pid <span class="number">24036</span>] <span class="number">15</span>:<span class="number">26</span>:<span class="number">09.378991</span> close(<span class="number">3</span>)    = <span class="number">0</span></span><br><span class="line">*[pid <span class="number">24036</span>] <span class="number">15</span>:<span class="number">26</span>:<span class="number">09.379103</span> socket(PF_INET, SOCK_STREAM, IPPROTO_TCP) = <span class="number">3</span></span><br><span class="line">*[pid <span class="number">24036</span>] <span class="number">15</span>:<span class="number">26</span>:<span class="number">09.379203</span> fcntl(<span class="number">3</span>, F_GETFL) = <span class="number">0x2</span> (flags O_RDWR)</span><br><span class="line">*[pid <span class="number">24036</span>] <span class="number">15</span>:<span class="number">26</span>:<span class="number">09.379295</span> fcntl(<span class="number">3</span>, F_SETFL, O_RDWR|O_NONBLOCK) = <span class="number">0</span></span><br><span class="line">*[pid <span class="number">24036</span>] <span class="number">15</span>:<span class="number">26</span>:<span class="number">09.379388</span> connect(<span class="number">3</span>, &#123;sa_family=AF_INET, sin_port=htons(<span class="number">9000</span>), sin_addr=inet_addr(<span class="string">"10.142.208.17"</span>)&#125;, <span class="number">16</span>) = -<span class="number">1</span> EINPROGRESS (Operation now in progress)</span><br><span class="line">[pid <span class="number">24036</span>] <span class="number">15</span>:<span class="number">26</span>:<span class="number">09.379525</span> select(<span class="number">4</span>, <span class="literal">NULL</span>, [<span class="number">3</span>], <span class="literal">NULL</span>, <span class="literal">NULL</span>) = <span class="number">1</span> (out [<span class="number">3</span>])</span><br><span class="line">*[pid <span class="number">24036</span>] <span class="number">15</span>:<span class="number">26</span>:<span class="number">09.428452</span> getsockopt(<span class="number">3</span>, SOL_SOCKET, SO_ERROR, [<span class="number">5366319056599121920</span>], [<span class="number">4</span>]) = <span class="number">0</span></span><br><span class="line">*[pid <span class="number">24036</span>] <span class="number">15</span>:<span class="number">26</span>:<span class="number">09.428569</span> fcntl(<span class="number">3</span>, F_SETFL, O_RDWR) = <span class="number">0</span></span><br><span class="line">[pid <span class="number">24036</span>] <span class="number">15</span>:<span class="number">26</span>:<span class="number">09.428678</span> poll([&#123;fd=<span class="number">3</span>, events=POLLIN&#125;, &#123;fd=<span class="number">0</span>, events=POLLIN&#125;], <span class="number">2</span>, -<span class="number">1</span>) = <span class="number">1</span> ([&#123;fd=<span class="number">0</span>, revents=POLLIN|POLLHUP&#125;])</span><br><span class="line">[pid <span class="number">24036</span>] <span class="number">15</span>:<span class="number">26</span>:<span class="number">09.428799</span> read(<span class="number">0</span>, <span class="string">"test\n"</span>, <span class="number">2048</span>) = <span class="number">5</span></span><br><span class="line">*[pid <span class="number">24036</span>] <span class="number">15</span>:<span class="number">26</span>:<span class="number">09.428904</span> write(<span class="number">3</span>, <span class="string">"test\n"</span>, <span class="number">5</span>) = <span class="number">5</span></span><br><span class="line">[pid <span class="number">24036</span>] <span class="number">15</span>:<span class="number">26</span>:<span class="number">09.429018</span> poll([&#123;fd=<span class="number">3</span>, events=POLLIN&#125;, &#123;fd=<span class="number">0</span>, events=POLLIN&#125;], <span class="number">2</span>, -<span class="number">1</span>) = <span class="number">1</span> ([&#123;fd=<span class="number">0</span>, revents=POLLHUP&#125;])</span><br><span class="line">[pid <span class="number">24036</span>] <span class="number">15</span>:<span class="number">26</span>:<span class="number">09.429134</span> shutdown(<span class="number">3</span>, <span class="number">1</span> <span class="comment">/* send */</span>) = <span class="number">0</span></span><br><span class="line">[pid <span class="number">24036</span>] <span class="number">15</span>:<span class="number">26</span>:<span class="number">09.429239</span> poll([&#123;fd=<span class="number">3</span>, events=POLLIN&#125;, &#123;fd=-<span class="number">1</span>&#125;], <span class="number">2</span>, -<span class="number">1</span>) = <span class="number">1</span> ([&#123;fd=<span class="number">3</span>, revents=POLLIN|POLLHUP&#125;])</span><br><span class="line">[pid <span class="number">24036</span>] <span class="number">15</span>:<span class="number">26</span>:<span class="number">09.477426</span> read(<span class="number">3</span>, <span class="string">""</span>, <span class="number">2048</span>) = <span class="number">0</span></span><br><span class="line">[pid <span class="number">24036</span>] <span class="number">15</span>:<span class="number">26</span>:<span class="number">09.477531</span> shutdown(<span class="number">3</span>, <span class="number">0</span> <span class="comment">/* receive */</span>) = -<span class="number">1</span> ENOTCONN (Transport endpoint is not connected)</span><br><span class="line">[pid <span class="number">24036</span>] <span class="number">15</span>:<span class="number">26</span>:<span class="number">09.477626</span> close(<span class="number">3</span>)    = <span class="number">0</span></span><br><span class="line">[pid <span class="number">24036</span>] <span class="number">15</span>:<span class="number">26</span>:<span class="number">09.477735</span> exit_group(<span class="number">0</span>) = ?</span><br></pre></td></tr></table></figure>
+<h3 id="The_code_path">The code path</h3><p>There are two socket calls, the 2nd one is the one doing the netcat.</p>
+<p>And I was able to capture the code path:<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">sys_socket() &#123;</span><br><span class="line"> <span class="number">22</span>)               |    sock_create() &#123;</span><br><span class="line"> <span class="number">22</span>)               |      __sock_create() &#123;</span><br><span class="line"> <span class="number">22</span>)               |        security_socket_create() &#123;</span><br><span class="line"> <span class="number">22</span>)   <span class="number">0.163</span> us    |          cap_socket_create();</span><br><span class="line"> <span class="number">22</span>)   <span class="number">0.520</span> us    |        &#125;</span><br><span class="line"> :::::::::(cut <span class="keyword">short</span> here)</span><br><span class="line"> <span class="number">22</span>)   <span class="number">0.163</span> us    |        _spin_lock();</span><br><span class="line"> <span class="number">22</span>)   <span class="number">0.544</span> us    |      &#125;</span><br><span class="line"> <span class="number">22</span>)   <span class="number">9.256</span> us    |    &#125;</span><br><span class="line"> <span class="number">22</span>) + <span class="number">28.162</span> us   |  &#125;</span><br></pre></td></tr></table></figure></p>
+<p>And, you probably guessed, <strong>connect</strong> call is the system call actually sent SYN packet:<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br></pre></td><td class="code"><pre><span class="line">sys_connect() &#123;</span><br><span class="line"><span class="number">22</span>)               |    sockfd_lookup_light() &#123;</span><br><span class="line"><span class="number">22</span>)   <span class="number">0.167</span> us    |      fget_light();</span><br><span class="line"><span class="number">22</span>)   <span class="number">0.507</span> us    |    &#125;</span><br><span class="line"><span class="number">22</span>)               |    move_addr_to_kernel() &#123;</span><br><span class="line"><span class="number">22</span>)   <span class="number">0.180</span> us    |      audit_sockaddr();</span><br><span class="line"><span class="number">22</span>)   <span class="number">0.518</span> us    |    &#125;</span><br><span class="line">::::::::(cut <span class="keyword">short</span> a lot!)</span><br><span class="line"><span class="number">22</span>)               |    security_socket_connect() &#123;</span><br><span class="line"><span class="number">12</span>)               |                        ip_output() &#123;</span><br><span class="line"><span class="number">12</span>)               |                          ip_finish_output() &#123;</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.174</span> us    |                            skb_push();</span><br><span class="line"><span class="number">12</span>)               |                            dev_queue_xmit() &#123;</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.189</span> us    |                              local_bh_disable();</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.203</span> us    |                              bond_select_queue();</span><br><span class="line"><span class="number">12</span>)               |                              dev_hard_start_xmit() &#123;</span><br><span class="line"><span class="number">12</span>)               |                                bond_start_xmit() &#123;</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.163</span> us    |                                  _read_lock();</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.170</span> us    |                                  _read_lock();</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.166</span> us    |                                  _read_lock();</span><br><span class="line"><span class="number">12</span>)               |                                  bond_dev_queue_xmit() &#123;</span><br><span class="line"><span class="number">12</span>)               |                                    dev_queue_xmit() &#123;</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.392</span> us    |                                      local_bh_disable();</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.193</span> us    |                                      _spin_lock();</span><br><span class="line"><span class="number">12</span>)               |                                      sch_direct_xmit() &#123;</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.192</span> us    |                                        _spin_lock();</span><br><span class="line"><span class="number">12</span>)               |                                        dev_hard_start_xmit() &#123;</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.272</span> us    |                                          dst_release();</span><br><span class="line"><span class="number">12</span>)               |                                          tg3_start_xmit() &#123;</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.212</span> us    |                                            __phys_addr();</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.165</span> us    |                                            __phys_addr();</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.165</span> us    |                                            __phys_addr();</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.196</span> us    |                                            tg3_tx_frag_set();</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.186</span> us    |                                            _tg3_flag();</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.163</span> us    |                                            _tg3_flag();</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.167</span> us    |                                            _tg3_flag();</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.198</span> us    |                                            __phys_addr();</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.168</span> us    |                                            tg3_tx_frag_set();</span><br><span class="line"><span class="number">12</span>)               |                                            tg3_tx_skb_unmap() &#123;</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.171</span> us    |                                              __phys_addr();</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.171</span> us    |                                              __phys_addr();</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.200</span> us    |                                              __phys_addr();</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.166</span> us    |                                              __phys_addr();</span><br><span class="line"><span class="number">12</span>)   <span class="number">1.852</span> us    |                                            &#125;</span><br><span class="line"><span class="number">12</span>)               |                                            skb_copy() &#123;</span><br><span class="line"><span class="number">12</span>)               |                                              __alloc_skb() &#123;</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.197</span> us    |                                                kmem_cache_alloc_node();</span><br><span class="line"><span class="number">12</span>)               |                                                  kmem_cache_alloc_node_trace() &#123;</span><br><span class="line"><span class="number">12</span>)               |                                                    cache_alloc_refill() &#123;</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.215</span> us    |                                                      _spin_lock();</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.192</span> us    |                                                      transfer_objects();</span><br><span class="line"><span class="number">12</span>)   <span class="number">1.603</span> us    |                                                    &#125;</span><br><span class="line"><span class="number">12</span>)   <span class="number">2.122</span> us    |                                                  &#125;</span><br><span class="line"><span class="number">12</span>)   <span class="number">2.470</span> us    |                                                &#125;</span><br><span class="line"><span class="number">12</span>)               |                                                ksize() &#123;</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.163</span> us    |                                                  __phys_addr();</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.502</span> us    |                                                &#125;</span><br><span class="line"><span class="number">12</span>)   <span class="number">3.873</span> us    |                                              &#125;</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.182</span> us    |                                              skb_put();</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.540</span> us    |                                              skb_copy_bits();</span><br><span class="line"><span class="number">12</span>)               |                                              copy_skb_header() &#123;</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.186</span> us    |                                                __copy_skb_header();</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.563</span> us    |                                              &#125;</span><br><span class="line"><span class="number">12</span>)   <span class="number">6.329</span> us    |                                            &#125;</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.163</span> us    |                                            __phys_addr();</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.166</span> us    |                                            __phys_addr();</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.166</span> us    |                                            __phys_addr();</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.166</span> us    |                                            tg3_tx_frag_set();</span><br><span class="line"><span class="number">12</span>)               |                                            consume_skb() &#123;</span><br><span class="line"><span class="number">12</span>)               |                                              __kfree_skb() &#123;</span><br><span class="line"><span class="number">12</span>)               |                                                skb_release_head_state() &#123;</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.215</span> us    |                                                  sock_wfree();</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.759</span> us    |                                                &#125;</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.223</span> us    |                                                skb_release_data();</span><br><span class="line"><span class="number">12</span>)   <span class="number">1.663</span> us    |                                              &#125;</span><br><span class="line"><span class="number">12</span>)   <span class="number">2.098</span> us    |                                            &#125;</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.177</span> us    |                                            tg3_write32();</span><br><span class="line"><span class="number">12</span>) + <span class="number">16.869</span> us   |                                          &#125;</span><br><span class="line"><span class="number">12</span>) + <span class="number">17.739</span> us   |                                        &#125;</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.230</span> us    |                                        _spin_lock();</span><br><span class="line"><span class="number">12</span>) + <span class="number">18.926</span> us   |                                      &#125;</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.184</span> us    |                                      local_bh_enable();</span><br><span class="line"><span class="number">12</span>) + <span class="number">21.848</span> us   |                                    &#125;</span><br><span class="line"><span class="number">12</span>) + <span class="number">22.206</span> us   |                                  &#125;</span><br><span class="line"><span class="number">12</span>) + <span class="number">23.623</span> us   |                                &#125;</span><br><span class="line"><span class="number">12</span>) + <span class="number">24.057</span> us   |                              &#125;</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.184</span> us    |                              local_bh_enable();</span><br><span class="line"><span class="number">12</span>) + <span class="number">25.827</span> us   |                            &#125;</span><br><span class="line"><span class="number">12</span>) + <span class="number">26.607</span> us   |                          &#125;</span><br><span class="line"><span class="number">12</span>) + <span class="number">27.148</span> us   |                        &#125;</span><br><span class="line"><span class="number">12</span>) + <span class="number">30.443</span> us   |                      &#125;</span><br><span class="line"><span class="number">12</span>) + <span class="number">32.550</span> us   |                    &#125;</span><br><span class="line"><span class="number">12</span>) + <span class="number">36.901</span> us   |                  &#125;</span><br><span class="line"><span class="number">12</span>)               |                  tcp_event_new_data_sent() &#123;</span><br><span class="line"><span class="number">12</span>)               |                    sk_reset_timer() &#123;</span><br><span class="line"><span class="number">12</span>)               |                      mod_timer() &#123;</span><br><span class="line"><span class="number">12</span>)               |                        lock_timer_base() &#123;</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.200</span> us    |                          _spin_lock_irqsave();</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.542</span> us    |                        &#125;</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.198</span> us    |                        idle_cpu();</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.188</span> us    |                        _spin_lock();</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.191</span> us    |                        internal_add_timer();</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.180</span> us    |                        _spin_unlock_irqrestore();</span><br><span class="line"><span class="number">12</span>)   <span class="number">2.390</span> us    |                      &#125;</span><br><span class="line"><span class="number">12</span>)   <span class="number">2.739</span> us    |                    &#125;</span><br><span class="line"><span class="number">12</span>)   <span class="number">3.138</span> us    |                  &#125;</span><br><span class="line"><span class="number">12</span>) + <span class="number">41.602</span> us   |                &#125;</span><br><span class="line"><span class="number">12</span>) + <span class="number">41.948</span> us   |              &#125;</span><br><span class="line"><span class="number">12</span>) + <span class="number">42.332</span> us   |            &#125;</span><br><span class="line"><span class="number">12</span>)               |            release_sock() &#123;</span><br><span class="line"><span class="number">12</span>)               |              _spin_lock_bh() &#123;</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.848</span> us    |                local_bh_disable();</span><br><span class="line"><span class="number">12</span>)   <span class="number">1.193</span> us    |              &#125;</span><br><span class="line"><span class="number">12</span>)               |              _spin_unlock_bh() &#123;</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.215</span> us    |                local_bh_enable_ip();</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.554</span> us    |              &#125;</span><br><span class="line"><span class="number">12</span>)   <span class="number">2.305</span> us    |            &#125;</span><br><span class="line"><span class="number">12</span>) + <span class="number">60.734</span> us   |          &#125;</span><br><span class="line"><span class="number">12</span>) + <span class="number">63.258</span> us   |        &#125;</span><br><span class="line"><span class="number">12</span>) + <span class="number">63.631</span> us   |      &#125;</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.208</span> us    |      inotify_inode_queue_event();</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.163</span> us    |      __fsnotify_parent();</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.170</span> us    |      inotify_dentry_parent_queue_event();</span><br><span class="line"><span class="number">12</span>)   <span class="number">0.165</span> us    |      fsnotify();</span><br><span class="line"><span class="number">12</span>) + <span class="number">66.650</span> us   |    &#125;</span><br><span class="line"><span class="number">12</span>) + <span class="number">67.492</span> us   |  &#125;</span><br></pre></td></tr></table></figure></p>
+<h3 id="Kernel_source_code">Kernel source code</h3> <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"> <span class="comment">/* Build a SYN and send it off. */</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">tcp_connect</span><span class="params">(<span class="keyword">struct</span> sock *sk)</span></span><br><span class="line"></span>&#123;</span><br><span class="line">        <span class="keyword">struct</span> tcp_sock *tp = tcp_sk(sk);</span><br><span class="line">        <span class="keyword">struct</span> sk_buff *buff;</span><br><span class="line">        <span class="keyword">int</span> err;</span><br><span class="line"> </span><br><span class="line">        tcp_connect_init(sk);</span><br><span class="line"><span class="comment">//::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::</span></span><br><span class="line">        <span class="comment">/* We change tp-&gt;snd_nxt after the tcp_transmit_skb() call</span><br><span class="line">         * in order to make this packet get counted in tcpOutSegs.</span><br><span class="line">         */</span></span><br><span class="line">        tp-&gt;snd_nxt = tp-&gt;write_seq;</span><br><span class="line">        tp-&gt;pushed_seq = tp-&gt;write_seq;</span><br><span class="line">        TCP_INC_STATS(sock_net(sk), TCP_MIB_ACTIVEOPENS);</span><br><span class="line"> </span><br><span class="line">        <span class="comment">/* Timer for repeating the SYN until an answer. */</span>                         </span><br><span class="line">        inet_csk_reset_xmit_timer(sk, ICSK_TIME_RETRANS,</span><br><span class="line">                                  inet_csk(sk)-&gt;icsk_rto, TCP_RTO_MAX);</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>Above findings give me some ideas what to look for as next steps.. I will update once I make more progress.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Background&quot;&gt;Background&lt;/h2&gt;&lt;p&gt;I have to deep dive into an networking issue today in my work environment. We have a good number of se
+    
+    </summary>
+    
+      <category term="tech" scheme="http://www.weiwangblog.com/categories/tech/"/>
+    
+    
+      <category term="FTACE" scheme="http://www.weiwangblog.com/tags/FTACE/"/>
+    
+      <category term="Linux" scheme="http://www.weiwangblog.com/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>流水</title>
+    <link href="http://www.weiwangblog.com/2015/01/26/2015-01-26_03:53:47/"/>
+    <id>http://www.weiwangblog.com/2015/01/26/2015-01-26_03:53:47/</id>
+    <published>2015-01-26T09:53:47.000Z</published>
+    <updated>2015-10-25T02:35:00.307Z</updated>
+    
+    <content type="html"><![CDATA[<p>6：30起床，准备面试的东西<br>被抱怨每天就坐在书房。<br>9：30溜巴蒂一小时15分钟<br>洗蛋蛋的鞋子<br>打扫后院和车道<br>吃饭<br>拔侧院和后院杂草，前院风大，就拔了最离谱的一大片杂草。</p>
+<p>钱包被洗。被单落狗屎。</p>
+<p>遛狗是最重要的事情，当然必须是我去做, 不然煮人婆會翻臉哦.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;6：30起床，准备面试的东西&lt;br&gt;被抱怨每天就坐在书房。&lt;br&gt;9：30溜巴蒂一小时15分钟&lt;br&gt;洗蛋蛋的鞋子&lt;br&gt;打扫后院和车道&lt;br&gt;吃饭&lt;br&gt;拔侧院和后院杂草，前院风大，就拔了最离谱的一大片杂草。&lt;/p&gt;
+&lt;p&gt;钱包被洗。被单落狗屎。&lt;/p&gt;
+&lt;p&gt;遛狗是最重
+    
+    </summary>
+    
+      <category term="Life" scheme="http://www.weiwangblog.com/categories/Life/"/>
+    
+    
+      <category term="流水帐" scheme="http://www.weiwangblog.com/tags/%E6%B5%81%E6%B0%B4%E5%B8%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>图书馆</title>
+    <link href="http://www.weiwangblog.com/2011/04/05/2011-04-05_02:45:37/"/>
+    <id>http://www.weiwangblog.com/2011/04/05/2011-04-05_02:45:37/</id>
+    <published>2011-04-05T07:45:37.000Z</published>
+    <updated>2015-10-25T02:35:00.307Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天带小家伙们去图书馆。菁教过他们用电脑检索系统找书，都用得挺像那么回事的。<br>这是今天他们带回来的书：<br>1    Soccer<br>2    Be my valentine, Charlie Brown<br>3    The Wiggles. Wiggly safari<br>4    Wordworld. Welcome to Wordworld<br>5    The crocodile<br>6    Dogs and puppies<br>7    Enduro racing<br>8    Game day : behind the scenes at a ballpark<br>9    I spy gold challenger! : a book of picture riddles<br>10    Moto X freestyle<br>11    Motocross freestyle<br>12    NASCAR’s wildest wrecks<br>13    Navy Seals<br>14    Soccer : defending<br>15    Supercross racing<br>16    Tennis in action</p>
+<p><a href="http://papasocean.files.wordpress.com/2011/04/20110404_001.jpg" target="_blank" rel="external"><img src="http://papasocean.files.wordpress.com/2011/04/20110404_001.jpg?w=300" alt="" title="20110404_001"></a><br><a href="http://papasocean.files.wordpress.com/2011/04/20110404_002.jpg" target="_blank" rel="external"><img src="http://papasocean.files.wordpress.com/2011/04/20110404_002.jpg?w=300" alt="" title="20110404_002"></a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天带小家伙们去图书馆。菁教过他们用电脑检索系统找书，都用得挺像那么回事的。&lt;br&gt;这是今天他们带回来的书：&lt;br&gt;1    Soccer&lt;br&gt;2    Be my valentine, Charlie Brown&lt;br&gt;3    The Wiggles. Wiggly 
+    
+    </summary>
+    
+      <category term="Life" scheme="http://www.weiwangblog.com/categories/Life/"/>
+    
+    
+      <category term="他们在成长" scheme="http://www.weiwangblog.com/tags/%E4%BB%96%E4%BB%AC%E5%9C%A8%E6%88%90%E9%95%BF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>睡美人儿</title>
+    <link href="http://www.weiwangblog.com/2011/02/10/2011-02-10_04:40:49/"/>
+    <id>http://www.weiwangblog.com/2011/02/10/2011-02-10_04:40:49/</id>
+    <published>2011-02-10T10:40:49.000Z</published>
+    <updated>2015-10-25T02:35:00.307Z</updated>
+    
+    <content type="html"><![CDATA[<p>Ms Eva觉得旦旦很适合弹duet，于是最近给了很多。。<br>一直陪他学，陪他练，因为喜欢。有时觉得是他在陪我练琴，总是跟我讲，他喜欢足球多一些。这不，马上新赛季开始，明天开始练球儿，那个高兴。巴不得每天都是周四。</p>
+<p>下周开始出差，要去3周。旦旦知道候就担心没法去踢球。昨天旦旦球队队友也是同学Johny的妈妈说可以去学校接旦旦去球场。旦旦于是很高兴。</p>
+<div class="video-container"><iframe src="//www.youtube.com/embed/2YuD6LK8WFE" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-container"><iframe src="//www.youtube.com/embed/3LoGnXfjr14" frameborder="0" allowfullscreen></iframe></div>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Ms Eva觉得旦旦很适合弹duet，于是最近给了很多。。&lt;br&gt;一直陪他学，陪他练，因为喜欢。有时觉得是他在陪我练琴，总是跟我讲，他喜欢足球多一些。这不，马上新赛季开始，明天开始练球儿，那个高兴。巴不得每天都是周四。&lt;/p&gt;
+&lt;p&gt;下周开始出差，要去3周。旦旦知道候就担心
+    
+    </summary>
+    
+      <category term="Life" scheme="http://www.weiwangblog.com/categories/Life/"/>
+    
+    
+      <category term="music" scheme="http://www.weiwangblog.com/tags/music/"/>
+    
+      <category term="他们在成长" scheme="http://www.weiwangblog.com/tags/%E4%BB%96%E4%BB%AC%E5%9C%A8%E6%88%90%E9%95%BF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>下雪</title>
+    <link href="http://www.weiwangblog.com/2011/02/02/2011-02-02_07:57:41/"/>
+    <id>http://www.weiwangblog.com/2011/02/02/2011-02-02_07:57:41/</id>
+    <published>2011-02-02T13:57:41.000Z</published>
+    <updated>2015-10-25T02:35:00.307Z</updated>
+    
+    <content type="html"><![CDATA[<p>昨夜凌晨开始下雨夾雪，温度骤降，到中午已是零下10度。</p>
+<p>雪其实不大，在地上冻成硬硬的冰。</p>
+<p>小朋友非要出去玩，西西有点不舒服，还是让他们去了。再回来，衣服都结成了冰，硬硬的。</p>
+<p>前不久做的香肠很好吃，昨晚切了15磅肉，下午用新买的手动灌肠工具灌了，很快很方便。这次不晾了，用烤箱烘干。希望一样好吃。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;昨夜凌晨开始下雨夾雪，温度骤降，到中午已是零下10度。&lt;/p&gt;
+&lt;p&gt;雪其实不大，在地上冻成硬硬的冰。&lt;/p&gt;
+&lt;p&gt;小朋友非要出去玩，西西有点不舒服，还是让他们去了。再回来，衣服都结成了冰，硬硬的。&lt;/p&gt;
+&lt;p&gt;前不久做的香肠很好吃，昨晚切了15磅肉，下午用新买的手动灌
+    
+    </summary>
+    
+      <category term="Life" scheme="http://www.weiwangblog.com/categories/Life/"/>
+    
+    
+      <category term="流水帐" scheme="http://www.weiwangblog.com/tags/%E6%B5%81%E6%B0%B4%E5%B8%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>腊28</title>
+    <link href="http://www.weiwangblog.com/2011/01/31/2011-01-31_06:49:14/"/>
+    <id>http://www.weiwangblog.com/2011/01/31/2011-01-31_06:49:14/</id>
+    <published>2011-01-31T12:49:14.000Z</published>
+    <updated>2015-10-25T02:35:00.307Z</updated>
+    
+    <content type="html"><![CDATA[<p>父亲生日。他在姐家，电话那边正要午饭。</p>
+<p>旦旦昨夜开始低烧。最近学校疯传流感，很多孩子都病倒了。</p>
+<p>早上带哥俩打网球，下午邻居俩孩子过来一起玩足球篮球橄榄球自行车滑轮。。。小哥俩一做作业弹琴便浑身抓痒，鼻子也不通，玩起来呼呼带着风，“没病！”</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;父亲生日。他在姐家，电话那边正要午饭。&lt;/p&gt;
+&lt;p&gt;旦旦昨夜开始低烧。最近学校疯传流感，很多孩子都病倒了。&lt;/p&gt;
+&lt;p&gt;早上带哥俩打网球，下午邻居俩孩子过来一起玩足球篮球橄榄球自行车滑轮。。。小哥俩一做作业弹琴便浑身抓痒，鼻子也不通，玩起来呼呼带着风，“没病！”&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Life" scheme="http://www.weiwangblog.com/categories/Life/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>N900 test</title>
+    <link href="http://www.weiwangblog.com/2010/10/05/2010-10-05_18:32:54/"/>
+    <id>http://www.weiwangblog.com/2010/10/05/2010-10-05_18:32:54/</id>
+    <published>2010-10-05T23:32:54.000Z</published>
+    <updated>2015-10-25T02:35:00.307Z</updated>
+    
+    <content type="html"><![CDATA[<p>Test from N900</p>
+<p><a href="http://papasocean.files.wordpress.com/2010/10/20101001_003.jpg" target="_blank" rel="external"><img src="http://papasocean.files.wordpress.com/2010/10/20101001_003.jpg" alt=""></a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Test from N900&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://papasocean.files.wordpress.com/2010/10/20101001_003.jpg&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img src=&quot;h
+    
+    </summary>
+    
+      <category term="Life" scheme="http://www.weiwangblog.com/categories/Life/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Fun piano pracitce</title>
+    <link href="http://www.weiwangblog.com/2010/05/31/2010-05-31_06:32:04/"/>
+    <id>http://www.weiwangblog.com/2010/05/31/2010-05-31_06:32:04/</id>
+    <published>2010-05-31T11:32:04.000Z</published>
+    <updated>2015-10-25T02:35:00.307Z</updated>
+    
+    <content type="html"><![CDATA[<p> 太久没更新，忘了怎么把Video放到博客里了。。。下面是西西录的一段旦旦练琴的录像，西西的背景声音很好笑。</p>
+<div class="video-container"><iframe src="//www.youtube.com/embed/893qKo6Lz4E" frameborder="0" allowfullscreen></iframe></div>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt; 太久没更新，忘了怎么把Video放到博客里了。。。下面是西西录的一段旦旦练琴的录像，西西的背景声音很好笑。&lt;/p&gt;
+&lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;//www.youtube.com/embed/893qKo6Lz4E&quot;
+    
+    </summary>
+    
+      <category term="Life" scheme="http://www.weiwangblog.com/categories/Life/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>流水</title>
+    <link href="http://www.weiwangblog.com/2010/04/13/2010-04-13_04:08:19/"/>
+    <id>http://www.weiwangblog.com/2010/04/13/2010-04-13_04:08:19/</id>
+    <published>2010-04-13T09:08:19.000Z</published>
+    <updated>2015-10-25T02:35:00.307Z</updated>
+    
+    <content type="html"><![CDATA[<p>//早上起来旦旦说背痛，一动就痛。好像昨晚睡觉前和西西疯玩扭伤了。本想让他今天呆在家里，不过今天实在没法在家上班，只好还是去学校。临走前本想写个条子给老师，要她多留心旦旦，后来西西要迟到了，没写完就赶紧送西西去了，菁说她送旦去学校直接跟老师说。</p>
+<p>//西西早上起来，照例哭诉不要去学校。没办法。Trouble four嘛。每次我不耐心，菁就要提醒我耐心。。。路上和小家伙聊动物园，忽然他又高兴了。</p>
+<p>//下午旦旦学校给菁电话说旦旦背还是痛，让接回家。我下班完了，接西西时都6点多了。西西一身土的问，你为啥迟到了？我解释说爸爸下班前有个会，开长了，走不了。西西不解的问: Why??  他今天身上特别脏，估计在外面玩泥巴去了。</p>
+<p>//旦旦自己把我未写完了条子续完了，全文如下：Mrs. Talbert: Andrew is having pain in his back, please help me (bring Andrew if Andrews back hurt’s call me and I well came. ) 括号内是旦旦续的。</p>
+<p>//旦旦近来喜欢画画：</p>
+<p><a href="http://papasocean.files.wordpress.com/2010/04/image0001.jpg?w=300" target="_blank" rel="external"><img src="http://papasocean.files.wordpress.com/2010/04/image0001.jpg?w=300" alt=""></a><br><a href="http://papasocean.files.wordpress.com/2010/04/image0002.jpg?w=300" target="_blank" rel="external"><img src="http://papasocean.files.wordpress.com/2010/04/image0002.jpg?w=300" alt=""></a><br><a href="http://papasocean.files.wordpress.com/2010/04/image0006.jpg?w=300" target="_blank" rel="external"><img src="http://papasocean.files.wordpress.com/2010/04/image0006.jpg?w=300" alt=""></a><br><a href="http://papasocean.files.wordpress.com/2010/04/driver_licence.jpg?w=231" target="_blank" rel="external"><img src="http://papasocean.files.wordpress.com/2010/04/driver_licence.jpg?w=231" alt=""></a></p>
+<p>还会在ESD(学校放学后的看小孩的地方）自己给自己出好看的数学题，然后用原始的方法（就是数手指头）数出结果，然后自己给自己评分（笑脸）：</p>
+<p><a href="http://papasocean.files.wordpress.com/2010/04/image0007.jpg?w=230" target="_blank" rel="external"><img src="http://papasocean.files.wordpress.com/2010/04/image0007.jpg?w=230" alt=""></a><br><a href="http://papasocean.files.wordpress.com/2010/04/image0004.jpg?w=230" target="_blank" rel="external"><img src="http://papasocean.files.wordpress.com/2010/04/image0004.jpg?w=230" alt=""></a></p>
+<p>//西西见旦旦现在每天练琴，也要练。我陪他从同一本书的第一页开始跟他讲。今天是第二次，看他这个兴趣能维持多长时间。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;//早上起来旦旦说背痛，一动就痛。好像昨晚睡觉前和西西疯玩扭伤了。本想让他今天呆在家里，不过今天实在没法在家上班，只好还是去学校。临走前本想写个条子给老师，要她多留心旦旦，后来西西要迟到了，没写完就赶紧送西西去了，菁说她送旦去学校直接跟老师说。&lt;/p&gt;
+&lt;p&gt;//西西早上起
+    
+    </summary>
+    
+      <category term="Life" scheme="http://www.weiwangblog.com/categories/Life/"/>
+    
+    
+      <category term="他们在成长" scheme="http://www.weiwangblog.com/tags/%E4%BB%96%E4%BB%AC%E5%9C%A8%E6%88%90%E9%95%BF/"/>
+    
+      <category term="流水帐" scheme="http://www.weiwangblog.com/tags/%E6%B5%81%E6%B0%B4%E5%B8%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>动物园</title>
+    <link href="http://www.weiwangblog.com/2010/04/12/2010-04-12_04:07:34/"/>
+    <id>http://www.weiwangblog.com/2010/04/12/2010-04-12_04:07:34/</id>
+    <published>2010-04-12T09:07:34.000Z</published>
+    <updated>2015-10-25T02:35:00.307Z</updated>
+    
+    <content type="html"><![CDATA[<p>好久没带旦旦西西出去玩，今天去了动物园。</p>
+<p>哥俩今天酷毙了。<br><a href="http://papasocean.files.wordpress.com/2010/04/04112010791.jpg?w=224" target="_blank" rel="external"><img src="http://papasocean.files.wordpress.com/2010/04/04112010791.jpg?w=224" alt=""></a><br><a href="http://papasocean.files.wordpress.com/2010/04/04112010797.jpg?w=224" target="_blank" rel="external"><img src="http://papasocean.files.wordpress.com/2010/04/04112010797.jpg?w=224" alt=""></a><br><a href="http://papasocean.files.wordpress.com/2010/04/04112010810.jpg?w=224" target="_blank" rel="external"><img src="http://papasocean.files.wordpress.com/2010/04/04112010810.jpg?w=224" alt=""></a><br><a href="http://papasocean.files.wordpress.com/2010/04/04112010815.jpg?w=224" target="_blank" rel="external"><img src="http://papasocean.files.wordpress.com/2010/04/04112010815.jpg?w=224" alt=""></a><br><a href="http://papasocean.files.wordpress.com/2010/04/04112010823.jpg?w=300" target="_blank" rel="external"><img src="http://papasocean.files.wordpress.com/2010/04/04112010823.jpg?w=300" alt=""></a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;好久没带旦旦西西出去玩，今天去了动物园。&lt;/p&gt;
+&lt;p&gt;哥俩今天酷毙了。&lt;br&gt;&lt;a href=&quot;http://papasocean.files.wordpress.com/2010/04/04112010791.jpg?w=224&quot; target=&quot;_blank&quot; rel
+    
+    </summary>
+    
+      <category term="Life" scheme="http://www.weiwangblog.com/categories/Life/"/>
+    
+    
+      <category term="他们在成长" scheme="http://www.weiwangblog.com/tags/%E4%BB%96%E4%BB%AC%E5%9C%A8%E6%88%90%E9%95%BF/"/>
+    
+  </entry>
+  
+</feed>
