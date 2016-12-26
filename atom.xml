@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.weiwangblog.com/"/>
-  <updated>2016-12-26T06:07:33.150Z</updated>
+  <updated>2016-12-26T06:19:20.951Z</updated>
   <id>http://www.weiwangblog.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://www.weiwangblog.com/2016/12/22/autoimmunereview/"/>
     <id>http://www.weiwangblog.com/2016/12/22/autoimmunereview/</id>
     <published>2016-12-22T23:42:07.000Z</published>
-    <updated>2016-12-26T06:07:33.150Z</updated>
+    <updated>2016-12-26T06:19:20.951Z</updated>
     
     <content type="html"><![CDATA[<p><em>“Reports that say that something hasn’t happened are always interesting to me, because as we know, there are known knowns; there are things we know we know. We also know there are known unknowns; that is to say we know there are some things we do not know. But there are also unknown unknowns – the ones we don’t know we don’t know. And if one looks throughout the history of our country and other free countries, it is the latter category that tend to be the difficult ones.” (“新闻报道说的某些未发生的事情总是让我很感兴趣,因为我们知道, 世间有知知-有些事情我们知道我们知道.我们也了解,有些是知不知-就是我们知道有些事情是我们不知道的.但是,世间也有不知不知-有些事情我们不知道我们不知道. 纵观我国和其他自由国家的历史, 这些不知不知往往是那些更难搞的.”)</em></p>
 <p>这是2002年2月12日,美国国防部长在国防部新闻发布会上答记者问是说的一段话,应对记者提出没有证据表明巴格达和恐怖组织相关的报道. 第一次读到这句话是在电脑奇才<a href="http://www.brendangregg.com/" target="_blank" rel="external">Brendan Gregg</a>的<a href="https://www.amazon.com/gp/product/0133390098/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0133390098&amp;linkCode=as2&amp;tag=deirdrestraug-20" target="_blank" rel="external">“系统性能”</a>一书里. 这句话如今成为我阅读和探究凡事原委的动力.</p>
@@ -108,7 +108,14 @@
 <p>还有一个问题是含麦麸的麦类食品. 说来也巧，在这之前，朋友亮子有一天发来消息问我有没有看过<a href="https://www.amazon.com/Grain-Brain-Surprising-Sugar-Your-Killers/dp/031623480X" target="_blank" rel="external">“Grain Brain”</a>这本书．当时没有太在意，随便看了一下简介便说不认同这本书．结果这半年的研究让我转变了态度．但是这本书的并没有指出问题的根源，我想在我写这篇文章的时候，全世界也没有一本书真正讲到为什么吃了千年的麦子为什么在美国让这么多人过敏．最后定下来的治疗家人自免疫病的计划中，麦麸首要避免的食物.这个着实困扰了我半年. 直到几天前偶然看到麻省理工的科学家Dr. Seneff和她的合作科学家的研究，才得到完美解释:尽管麦子不是转基因产品,但是美国的麦子在收割前大量使用草甘膦目的是杀死催熟催干并同时杀死地里的杂草,使得收割容易并不会卡住农机.草甘膦的分子结构,包含了人体需要的一个最小的氨基酸Glycine.她和她的研究伙伴认为,人体错误的讲Glyphosate拿来合成人体需要的蛋白质,直接导致当今各种疾病率随着草甘膦的使用量极度增长. </p>
 <p>糖. 精练糖,没有任何营养只有热量的糖. 是当今的毒药,应该尽量避免. 天然食物里的糖分则不需要过度担心. 太多相关的文章,不必多说.</p>
 <p>牛奶. 牛奶的问题是养殖方式，激素，抗生素，转基因饲料，病牛体内的各种毒物尸体（高温杀死也没有用），草甘膦污染．这样的牛奶补钙是个天大的谎言，如果喝不到健康牛的牛奶（就算有也建议自制成酸奶才喝，否则人体很难消化），不如不喝牛奶．</p>
-<h4 id="疫苗">疫苗</h4><p>关于疫苗，不想多说自己的观点，建议大家关注以下</p>
+<h4 id="疫苗">疫苗</h4><p>关于疫苗，不想多说自己的观点，但我是从州政府申请了免疫苗表格，尽管有点晚，但能少一针是一针．建议大家关注以下</p>
+<ul>
+<li>2016年的纪录片<a href="http://vaxxedthemovie.com/" target="_blank" rel="external">VAXXED</a></li>
+<li>Dr. John Bergman的<a href="https://www.youtube.com/watch?v=5YaHqCv48-s" target="_blank" rel="external">Vaccinations- Myths, Beliefs, and Facts</a></li>
+<li>Mary Tocco的<a href="https://www.youtube.com/watch?v=wjZeqv_hqkE" target="_blank" rel="external">Why Vaccines Aren’t Safe For Your Children</a></li>
+<li><a href="https://www.youtube.com/watch?v=QTgGjp3ryPI" target="_blank" rel="external">Dr Stephanie Seneff Presents Roundup, MMR and Autism A Toxic Connection</a></li>
+<li><a href="https://www.youtube.com/watch?v=50pU7VLw728" target="_blank" rel="external">The Idea that Vaccines Make Us Healthy Is an Illusion — Andreas Moritz</a>这个人有非常大的争议，我想也许有朋友会因我用他来做佐证而鄙视我．我希望历史给他一个证明的机会．</li>
+</ul>
 <p>书单:</p>
 <ul>
 <li><a href="https://www.amazon.com/gp/product/162336700X/ref=oh_aui_detailpage_o01_s01?ie=UTF8&amp;psc=1" target="_blank" rel="external">“The Autoimmune Fix: How to Stop the Hidden Autoimmune Damage That Keeps You Sick, Fat, and Tired Before It Turns Into Disease”</a></li>
