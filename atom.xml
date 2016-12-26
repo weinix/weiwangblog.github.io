@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.weiwangblog.com/"/>
-  <updated>2016-12-26T21:57:54.845Z</updated>
+  <updated>2016-12-26T22:06:33.826Z</updated>
   <id>http://www.weiwangblog.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://www.weiwangblog.com/2016/12/22/autoimmunereview/"/>
     <id>http://www.weiwangblog.com/2016/12/22/autoimmunereview/</id>
     <published>2016-12-22T23:42:07.000Z</published>
-    <updated>2016-12-26T21:57:54.845Z</updated>
+    <updated>2016-12-26T22:06:33.826Z</updated>
     
     <content type="html"><![CDATA[<p><em>“Reports that say that something hasn’t happened are always interesting to me, because as we know, there are known knowns; there are things we know we know. We also know there are known unknowns; that is to say we know there are some things we do not know. But there are also unknown unknowns – the ones we don’t know we don’t know. And if one looks throughout the history of our country and other free countries, it is the latter category that tend to be the difficult ones.” (“新闻报道说的某些未发生的事情总是让我很感兴趣,因为我们知道, 世间有知知-有些事情我们知道我们知道.我们也了解,有些是知不知-就是我们知道有些事情是我们不知道的.但是,世间也有不知不知-有些事情我们不知道我们不知道. 纵观我国和其他自由国家的历史, 这些不知不知往往是那些更难搞的.”)</em></p>
 <p>这是2002年2月12日,美国国防部长在国防部新闻发布会上答记者问是说的一段话,应对记者提出没有证据表明巴格达和恐怖组织相关的报道. 第一次读到这句话是在电脑奇才<a href="http://www.brendangregg.com/" target="_blank" rel="external">Brendan Gregg</a>的<a href="https://www.amazon.com/gp/product/0133390098/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0133390098&amp;linkCode=as2&amp;tag=deirdrestraug-20" target="_blank" rel="external">“系统性能”</a>一书里. 这句话如今成为我阅读和探究凡事原委的座右铭.</p>
@@ -105,6 +105,7 @@
 <li><a href="https://www.youtube.com/watch?v=QTgGjp3ryPI" target="_blank" rel="external">Dr Stephanie Seneff Presents Roundup, MMR and Autism A Toxic Connection</a>　Dr. Seneff是当今科学届的英雄，也要感谢MIT的自由科学研究环境，可以保护她不被工业届惩罚．</li>
 <li><a href="http://www.momsacrossamerica.com/glyphosate_testing_results" target="_blank" rel="external">草甘膦已经污染了母乳</a> 及其了不起的研究，发起于民间组织＂Moms Across America”，发起人用饮食治愈了她的孩子的自闭症后成立这个组织，他们在科学届的帮助下完成了难度非常高的母乳草甘膦测试，结果发现他们测试的母乳里草甘膦的含量比欧洲水标准高１６００倍．也就是说，草甘膦在美国几乎是人人身体里面都有，出问题是大部分人早晚的事情．</li>
 </ul>
+<p>看一组美国的数据说明这个问题的严重性:<br>![草甘膦和当前美国几个疾病的统计图表］(/images/autoimmune/glyphosate_vs_diseases.png)</p>
 <p>肠漏导致自免疫系统疾病,我着实读了几个月之后才慢慢理解接受.  当前美国最新的健康行业一个动向是,如何帮助人恢复消化系统健康, 甚至新兴起”肠道导师(Gut Advisor)”的职业.  </p>
 <h4 id="饮食结构">饮食结构</h4><p>我在这个上面是走了不少弯路的，实在是太多信息，太多理论．我一度认为，完整植物食物是唯一的最好的选择．</p>
 <p>我目前的看法是：</p>
