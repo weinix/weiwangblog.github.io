@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.weiwangblog.com/"/>
-  <updated>2016-12-26T23:08:54.803Z</updated>
+  <updated>2016-12-26T23:09:39.431Z</updated>
   <id>http://www.weiwangblog.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://www.weiwangblog.com/2016/12/22/autoimmunereview/"/>
     <id>http://www.weiwangblog.com/2016/12/22/autoimmunereview/</id>
     <published>2016-12-22T23:42:07.000Z</published>
-    <updated>2016-12-26T23:08:54.803Z</updated>
+    <updated>2016-12-26T23:09:39.431Z</updated>
     
     <content type="html"><![CDATA[<p><em>“Reports that say that something hasn’t happened are always interesting to me, because as we know, there are known knowns; there are things we know we know. We also know there are known unknowns; that is to say we know there are some things we do not know. But there are also unknown unknowns – the ones we don’t know we don’t know. And if one looks throughout the history of our country and other free countries, it is the latter category that tend to be the difficult ones.” (“新闻报道说的某些未发生的事情总是让我很感兴趣,因为我们知道, 世间有知知-有些事情我们知道我们知道.我们也了解,有些是知不知-就是我们知道有些事情是我们不知道的.但是,世间也有不知不知-有些事情我们不知道我们不知道. 纵观我国和其他自由国家的历史, 这些不知不知往往是那些更难搞的.”)</em></p>
 <p>这是2002年2月12日,美国国防部长在国防部新闻发布会上答记者问是说的一段话,应对记者提出没有证据表明巴格达和恐怖组织相关的报道. 第一次读到这句话是在电脑奇才<a href="http://www.brendangregg.com/" target="_blank" rel="external">Brendan Gregg</a>的<a href="https://www.amazon.com/gp/product/0133390098/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0133390098&amp;linkCode=as2&amp;tag=deirdrestraug-20" target="_blank" rel="external">“系统性能”</a>一书里. 这句话如今成为我阅读和探究凡事原委的座右铭.</p>
@@ -39,7 +39,7 @@
 <li>手术后遗症, 等等等等</li>
 </ul>
 <p>从治疗手段上,病分为免疫性炎症和其他炎症. 如果是免疫系统造成的炎症, 便归入自免疫系统疾病类.<br>眼科医学的对这个疾病的说法是,在绝大部分情况下病因未知,病情往往时好时坏有周期性. 有时候并不建议治疗,因为治疗(的副作用)可能比病本身更糟糕. 而常规治疗方案是激素和系统免疫压抑药物.</p>
-<p>曹医生给的病人手册上则写道: “有时候眼睛仅仅是受影响的一部分,身体的其他部位可能在不定期(数月,数年,甚至数十年)的将来受影响.”暗示着终身治疗并可能发展到其他部位, 完全的未知.</p>
+<p>拿到的一个葡萄膜炎病人手册上则写道: “有时候眼睛仅仅是受影响的一部分,身体的其他部位可能在不定期(数月,数年,甚至数十年)的将来受影响.”暗示着终身治疗并可能发展到其他部位, 完全的未知.</p>
 <p><img src="/images/autoimmune/what_md_say.png" alt="What conventional Medicine Say"></p>
 <h2 id="自免疫系统疾病">自免疫系统疾病</h2><p>这个名字实际上非常误导,我认为应该叫自毁性免疫系统疾病. 医学资料的介绍是: 免疫系统是一个由特殊细胞和器官组成的复杂网络,用来抵御外来的病原体和细菌,还有其他不属于人体的各种蛋白质. 免疫系统的核心是区分自己和非自己. 当前的医学教科书认为, 自免疫系统疾病来源于免疫系统的不正常工作, 导致免疫系统不能正确区分自己和非自己,结果制造出自免疫抗体(Autoantibodies)来攻击人体自身组织. 现在我知道,医学教科书并不一定正确的.这是我为什么要写这篇文的一个原因.</p>
 <p>可怕的是自免疫系统可能攻击人体任何组织(见下图．等有100多种病. 常见的有(来自Autoimmune Fix一书）</p>
