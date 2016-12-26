@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.weiwangblog.com/"/>
-  <updated>2016-12-26T19:48:25.750Z</updated>
+  <updated>2016-12-26T19:52:41.755Z</updated>
   <id>http://www.weiwangblog.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://www.weiwangblog.com/2016/12/22/autoimmunereview/"/>
     <id>http://www.weiwangblog.com/2016/12/22/autoimmunereview/</id>
     <published>2016-12-22T23:42:07.000Z</published>
-    <updated>2016-12-26T19:48:25.750Z</updated>
+    <updated>2016-12-26T19:52:41.755Z</updated>
     
     <content type="html"><![CDATA[<p><em>“Reports that say that something hasn’t happened are always interesting to me, because as we know, there are known knowns; there are things we know we know. We also know there are known unknowns; that is to say we know there are some things we do not know. But there are also unknown unknowns – the ones we don’t know we don’t know. And if one looks throughout the history of our country and other free countries, it is the latter category that tend to be the difficult ones.” (“新闻报道说的某些未发生的事情总是让我很感兴趣,因为我们知道, 世间有知知-有些事情我们知道我们知道.我们也了解,有些是知不知-就是我们知道有些事情是我们不知道的.但是,世间也有不知不知-有些事情我们不知道我们不知道. 纵观我国和其他自由国家的历史, 这些不知不知往往是那些更难搞的.”)</em></p>
 <p>这是2002年2月12日,美国国防部长在国防部新闻发布会上答记者问是说的一段话,应对记者提出没有证据表明巴格达和恐怖组织相关的报道. 第一次读到这句话是在电脑奇才<a href="http://www.brendangregg.com/" target="_blank" rel="external">Brendan Gregg</a>的<a href="https://www.amazon.com/gp/product/0133390098/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0133390098&amp;linkCode=as2&amp;tag=deirdrestraug-20" target="_blank" rel="external">“系统性能”</a>一书里. 这句话如今成为我阅读和探究凡事原委的座右铭.</p>
@@ -66,12 +66,12 @@
 <p>一个普遍的说法是,自免疫系统疾病是慢性炎症持续时间太长,超过了免疫系统能够承受的限度,导致免疫系统紊乱开始走火攻击自身.</p>
 <p>下面来讲讲免疫系统过载的来源.</p>
 <h3 id="免疫过载">免疫过载</h3><p>当前免疫系统过载的来源主要来自几个方面:肠漏(Leaky gut, or Intestinal  Permeability)和疫苗.</p>
-<h5 id="肠漏">肠漏</h5><p>我观察到美国最新的健康行业一个动向是,消化系统健康, 甚至新兴起”肠道导师(Gut Advisor)”的职业.  </p>
+<h5 id="肠漏">肠漏</h5><p>肠漏导致自免疫系统疾病,我着实读了几个月之后才慢慢理解接受.</p>
+<p>我观察到美国最新的健康行业一个动向是,消化系统健康, 甚至新兴起”肠道导师(Gut Advisor)”的职业.  </p>
 <p>前面提到消化道表皮有网球场那么大,70%以上的免疫系统细胞存在于消化道尤其是小肠大肠. 食物经过口腔食道胃的初步分解之后进入小肠, 小肠里面进一步分解成最小的成分:蛋白质应降解为钛类物质和氨基酸,脂肪降解为脂肪酸和甘油,碳水化合物应降解为单糖.<br>正常情况下,只有这些降解成最小的营养物质才可以通过小肠壁进入体内. 没有消化完的食物应该最终进入大肠排除体外.</p>
 <p>健康的小肠壁是一个一个细胞紧紧的, 而当炎症发生造成肠漏之后,这些细胞受到破损,便会形成肉眼看不到漏洞. 这会造成没有消化完全的大分子蛋白和病原体或毒害物质直接进入血液,造成免疫系统反应.</p>
 <p><img src="/images/autoimmune/HealthyLeakyGut.jpg" alt="肠漏"></p>
 <p>现代医学之父古希腊名医<a href="http://baike.baidu.com/link?url=tLJiJUEPD75tat_SlrKmyM66Ze2Vg_h7mgZ3lxJtcZ3kad40CkksUYprAonJJTZuOzcU4vxMD8wImMf0GmZp3ryUzJW6jpqRV8l2bESehTtDCWV39Nfyq0P36UDX3tg0zSDkLyzmQ-5AOttJ_5AT3_" target="_blank" rel="external">希波科拉提斯(Hippocrates)</a>z两千年前的说”所有疾病源于消化系统”(All Disease begin in the gut). 近年来被非常多的引用,最新的自免疫系统研究也表明, <em>每一个自免疫系统疾病患者都有肠漏问题</em>, 是免疫系统过激的根本原因. 再者,<a href="http://www.hopkinsmedicine.org/health/healthy_aging/healthy_body/the-brain-gut-connection" target="_blank" rel="external">肠道和大脑紧密相关</a>,肠漏即是脑漏(Leaky gut, leaky brain).肠漏也会导致大分子蛋白通过血液直接进入以脂肪为主要食物的大脑, 导致各种脑病．</p>
-<p>肠漏导致自免疫系统疾病,我着实读了几个月之后才慢慢理解接受.</p>
 <p>肠漏的原因我无法详尽的解释清楚,本文提供的书籍和链接中的海量研究是更好的读物.我总结我目前理解的肠漏主要来源:</p>
 <ul>
 <li>草甘膦(蒙山公司生产的光谱除草剂主要成分).主要从食物里来,美国最大的问题是含麦麸的谷类.</li>
