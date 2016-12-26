@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.weiwangblog.com/"/>
-  <updated>2016-12-26T21:50:11.886Z</updated>
+  <updated>2016-12-26T21:51:32.826Z</updated>
   <id>http://www.weiwangblog.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://www.weiwangblog.com/2016/12/22/autoimmunereview/"/>
     <id>http://www.weiwangblog.com/2016/12/22/autoimmunereview/</id>
     <published>2016-12-22T23:42:07.000Z</published>
-    <updated>2016-12-26T21:50:11.886Z</updated>
+    <updated>2016-12-26T21:51:32.826Z</updated>
     
     <content type="html"><![CDATA[<p><em>“Reports that say that something hasn’t happened are always interesting to me, because as we know, there are known knowns; there are things we know we know. We also know there are known unknowns; that is to say we know there are some things we do not know. But there are also unknown unknowns – the ones we don’t know we don’t know. And if one looks throughout the history of our country and other free countries, it is the latter category that tend to be the difficult ones.” (“新闻报道说的某些未发生的事情总是让我很感兴趣,因为我们知道, 世间有知知-有些事情我们知道我们知道.我们也了解,有些是知不知-就是我们知道有些事情是我们不知道的.但是,世间也有不知不知-有些事情我们不知道我们不知道. 纵观我国和其他自由国家的历史, 这些不知不知往往是那些更难搞的.”)</em></p>
 <p>这是2002年2月12日,美国国防部长在国防部新闻发布会上答记者问是说的一段话,应对记者提出没有证据表明巴格达和恐怖组织相关的报道. 第一次读到这句话是在电脑奇才<a href="http://www.brendangregg.com/" target="_blank" rel="external">Brendan Gregg</a>的<a href="https://www.amazon.com/gp/product/0133390098/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0133390098&amp;linkCode=as2&amp;tag=deirdrestraug-20" target="_blank" rel="external">“系统性能”</a>一书里. 这句话如今成为我阅读和探究凡事原委的座右铭.</p>
@@ -143,7 +143,7 @@
 <li>去除所有过敏食物，一定要去麦麸类，黄豆，牛奶，花生，转基因；(按Dr. O’Bryan的说法，不要火上浇油）</li>
 <li>安排健康合理的饮食(这个第二难）尽量所有的食物从有机原料开始做;</li>
 <li>修复肠漏．有机鸡骨头汤，<a href="http://thedr.com/products-page-2/nutrition-formulas/gluten-sensitivity-support-packs-2/" target="_blank" rel="external">GS Support Packets</a>里面有Dr.O’Bryan配好的２２种修复肠漏需要的关键营养, <a href="http://thedr.com/products-page-2/nutrition-formulas/gluten-sensitivity-gi-restore-powder/" target="_blank" rel="external">GS Immuno Restore Power</a>(这个在非洲被用来治疗艾滋病, 母乳初乳里面的关键成分之一,是一种基因调节剂(Gene Modulator)给身体信号关上消化系统的漏洞.</li>
-<li>发酵食品(Probiotics益生菌来源), 最好自制, 一定要用矿盐或海盐. 要配合多样花的各种高纤维的益生元(prebiotic)食品, 比如大葱,生酸,洋葱,芦笋等等. </li>
+<li>修复体内微生物环境. 发酵食品(Probiotics益生菌来源), 最好自制, 一定要用矿盐或海盐. 要配合多样花的各种高纤维的益生元(prebiotic)食品, 比如大葱,生酸,洋葱,芦笋等等. </li>
 <li>其他缺失营养补充, 根据检查报告来</li>
 <li>定期看专科医生监控病情, 每隔半年重测一次抗体指标</li>
 </ul>
